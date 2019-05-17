@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../week_11/day_02/array_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../week_11/day_02/multiple_classes_start" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../week_11/day_04/enums_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_01/CC_wk12_d01_lab" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_01/inheritance_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_01/packages_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_02/interfaces_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_02/polymorphism/code/no_polymorphism_start_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../day_02/polymorphism/code/polymorphism_end_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_11/day_2/classes_homework/homework_solution" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_12/day_1/inheritance/inheritance_end_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_12/day_2/homework/theme_park_solution" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_12/day_2/interfaces/code/interfaces_end_point" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_12/day_2/interfaces_lab/interfaces_lab_solution" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../e29_classnotes/week_12/day_2/polymorphism/code/polymorphism_end_point" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1412" />
+    <option name="height" value="777" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+</project>
