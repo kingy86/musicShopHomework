@@ -1,18 +1,24 @@
 package Instruments;
 
-public class Brass extends Instruments.Instrument {
+import Interfaces.IPlay;
 
-    private String type;
+public class Brass extends Instruments.Instrument implements IPlay {
+
+    private String brand;
     private String sound;
 
-    public Brass(String brand, int price, String type, String sound) {
-        super(brand, price);
-        this.type = type;
+    public Brass(String type, int price, String brand, String sound) {
+        super(type, price);
+        this.brand = brand;
         this.sound = sound;
     }
 
-    public String getType() {
-        return type;
+    public String getBrand() {
+        return brand;
+    }
+
+    public String instrumentCanPlay(){
+        return "This instrument makes a sound like a " + sound;
     }
 
 }

@@ -10,12 +10,12 @@ public class InstrumentTest {
 
     @Before
     public void before(){
-        instrument = new Instrument("Fender", 500);
+        instrument = new Instrument("Guitar", 500);
     }
 
     @Test
     public void hasBrand(){
-        assertEquals("Fender", instrument.getBrand());
+        assertEquals("Guitar", instrument.getType());
     }
 
     @Test

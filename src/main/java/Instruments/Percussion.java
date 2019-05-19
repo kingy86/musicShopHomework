@@ -2,16 +2,16 @@ package Instruments;
 
 public class Percussion extends Instruments.Instrument {
 
-    private String type;
+    private String brand;
     private String sound;
 
-    public Percussion(String brand, int price, String type, String sound) {
-        super(brand, price);
-        this.type = type;
+    public Percussion(String type, int price, String brand, String sound) {
+        super(type, price);
+        this.brand = brand;
         this.sound = sound;
     }
 
     public String getType() {
-        return type;
+        return brand;
     }
 }

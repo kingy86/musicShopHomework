@@ -1,17 +1,18 @@
 package Instruments;
 
+
 public class Instrument {
 
-    private String brand;
+    private String type;
     private int price;
 
-    public Instrument(String brand, int price) {
-        this.brand = brand;
+    public Instrument(String type, int price) {
+        this.type = type;
         this.price = price;
     }
 
-    public String getBrand() {
-        return brand;
+    public String getType() {
+        return type;
     }
 
     public int getPrice() {
