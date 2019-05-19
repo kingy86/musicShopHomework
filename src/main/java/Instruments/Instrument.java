@@ -22,9 +22,6 @@ public class Instrument {
         this.price = price;
     }
 
-//    public String instrumentCanPlay(){
-//        return "Musical sounds";
-//    }
 
 
 }
