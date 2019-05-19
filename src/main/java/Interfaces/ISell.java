@@ -1,6 +1,8 @@
 package Interfaces;
 
+import Instruments.Instrument;
+
 public interface ISell {
 
-    void sellInstrument();
+    void sellInstrument(Instruments.Instrument instrument);
 }
