@@ -21,4 +21,8 @@ public class Brass extends Instruments.Instrument implements IPlay {
         return "This instrument makes a sound like a " + sound;
     }
 
+    public String instrumentType(){
+        return getType();
+    }
+
 }

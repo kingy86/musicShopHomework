@@ -10,16 +10,21 @@ public class BrassTest {
 
     @Before
     public void before(){
-        brass = new Brass("Trumpet", 100, "Yahmaha", "Toot");
+        brass = new Brass("Trumpet", 100, "Yamaha", "Toot");
     }
 
     @Test
-    public void isATypeOfBrassInstrument(){
-        assertEquals("Trumpet", brass.getBrand());
+    public void isABrandOfBrassInstrument(){
+        assertEquals("Yamaha", brass.getBrand());
     }
 
     @Test
     public void instrumentHasASound(){
         assertEquals("This instrument makes a sound like a Toot", brass.instrumentCanPlay());
+    }
+
+    @Test
+    public void isATypeOfBrassInstrument(){
+        assertEquals("Trumpet", brass.instrumentType());
     }
 }
