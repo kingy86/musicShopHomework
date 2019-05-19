@@ -43,4 +43,12 @@ public class ShopTest {
         shop.sellInstrument(instrument);
         assertEquals(2, shop.instrumentCount());
     }
+
+    @Test
+    public void instrumentHasPriceInShop(){
+        instrument.getPrice();
+        assertEquals(500, shop.instrumentHasPrice(instrument));
+    }
+
+
 }

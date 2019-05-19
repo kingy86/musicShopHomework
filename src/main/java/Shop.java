@@ -10,12 +10,14 @@ public class Shop implements IBuy, ISell {
     private String name;
     private ArrayList<Instrument> instruments;
     private Till till;
+    private Instrument instrument;
 
 
     public Shop(String name){
         this.name = name;
         this.till = till;
         this.instruments = new ArrayList<>();
+        this.instrument = instrument;
     }
 
     public String getName() {
@@ -34,4 +36,10 @@ public class Shop implements IBuy, ISell {
     public void sellInstrument(Instrument instrument){
         instruments.remove(0);
     }
+
+    public int instrumentHasPrice(Instrument instrument){
+        return instrument.getPrice();
+    }
+
+
 }

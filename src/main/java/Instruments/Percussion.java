@@ -14,4 +14,8 @@ public class Percussion extends Instruments.Instrument {
     public String getType() {
         return brand;
     }
+
+    public String instrumentCanPlay(){
+        return "This instrument makes a sound like a " + sound;
+    }
 }

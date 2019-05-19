@@ -14,7 +14,7 @@ public class InstrumentTest {
     }
 
     @Test
-    public void hasBrand(){
+    public void hasType(){
         assertEquals("Guitar", instrument.getType());
     }
 
@@ -22,12 +22,4 @@ public class InstrumentTest {
     public void hasPrice(){
         assertEquals(500, instrument.getPrice());
     }
-
-    @Test
-    public void AbleToSetPriceOfInstruments(){
-        instrument.setPrice(350);
-        assertEquals(350, instrument.getPrice());
-    }
-
-
 }

@@ -10,7 +10,7 @@ public class BrassTest {
 
     @Before
     public void before(){
-        brass = new Brass("Yamaha", 100, "Trumpet", "Toot");
+        brass = new Brass("Trumpet", 100, "Yahmaha", "Toot");
     }
 
     @Test

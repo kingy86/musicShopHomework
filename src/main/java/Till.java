@@ -6,8 +6,16 @@ public class Till {
         this.money = money;
     }
 
-    public int getMoney() {
+    public int moneyInTill() {
         return money;
+    }
+
+    public int removeMoney(int money){
+        return this.money -= money;
+    }
+
+    public int addMoney(int money){
+        return this.money += money;
     }
 
 
